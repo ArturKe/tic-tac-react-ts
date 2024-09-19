@@ -1,0 +1,10 @@
+.inform-panel {
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(255, 209, 209);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}

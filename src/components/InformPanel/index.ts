@@ -1,0 +1,1 @@
+export { InformPanel } from './InformPanel'

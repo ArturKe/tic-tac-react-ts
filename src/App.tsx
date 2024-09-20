@@ -3,7 +3,7 @@
 import './App.css'
 import { GameBoard } from './components/GameBoard'
 
-function App() {
+export const App = () => {
   return (
     <>
       <h1>Tic Tac Game</h1>
@@ -14,5 +14,3 @@ function App() {
     </>
   )
 }
-
-export default App

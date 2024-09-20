@@ -1,4 +1,4 @@
-import React, { FunctionComponent, ReactElement, useEffect, useState } from 'react'
+import { FunctionComponent, ReactElement, useEffect, useState } from 'react'
 import './GameBoard.css'
 import { store } from '../../store/store'
 import { Button } from '../Button'
@@ -38,12 +38,6 @@ export const GameBoard = () => {
   const [player, setPLayer] = useState<boolean>(false)
   const [winner, setWinner] = useState<string | null >(null)
   const [tiles, setTiles] = useState<(string | boolean)[]>([...initTiles])
-
-  console.log('Game board created')
-
-  React.useEffect(()=>{
-    console.log('PLayer changed')
-  }, [player])
 
   const checkWinner = () => {
     let response = null

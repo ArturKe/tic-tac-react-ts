@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+- Live demo: <a href="https://tic-tac-react-ts.netlify.app/">Tic Tac Game</a>
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
